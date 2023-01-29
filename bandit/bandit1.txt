@@ -1,0 +1,7 @@
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+
+pass: NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+
+cat ./-
+
+rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi

@@ -1,0 +1,7 @@
+ssh bandit11@bandit.labs.overthewire.org -p 2220
+
+pass: 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
+JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv

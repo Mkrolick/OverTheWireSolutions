@@ -1,0 +1,9 @@
+ssh bandit20@bandit.labs.overthewire.org -p 2220
+
+pass: VxCazJaVykI6W36BkBU0mJTCM8rR95XT
+
+echo VxCazJaVykI6W36BkBU0mJTCM8rR95XT | netcat -lp 1234 &  
+
+./suconnect 1234
+
+NvEJF7oVjkddltPSrdKEFOllh9V1IBcq

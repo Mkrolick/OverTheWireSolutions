@@ -1,0 +1,55 @@
+ssh bandit12@bandit.labs.overthewire.org -p 2220
+
+pass: JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+
+whatis xxd
+
+mkdir /tmp/malco
+
+cp data.txt /tmp/malco/data.txt
+
+cd /tmp/malco
+
+xxd -r data.txt > rhex.txt
+
+file rhex.txt
+
+rm rhex.txt rhex.gz
+
+gzip -d rhex.gz
+
+cp rhex rhex.bz2
+
+mkdir one
+
+cp rhex.bz2 one/rhex.bz2 
+
+cd one
+
+bzip2 -d rhex.bz2
+
+cp rhex rhex.gz
+
+gzip -d rhex.gz
+
+cp rhex rhex.tar.gz
+
+tar -xf rhex.tar.gz 
+
+tar -xf data5.bin
+
+tar -xf data6.bin
+
+cp data6.bin data6.bz2
+
+bzip2 -d data6.bz2
+
+tar -xf data6 hope
+
+cp data8.bin data8.gz 
+
+gzip -d data8.bin 
+
+cat data8
+
+wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw

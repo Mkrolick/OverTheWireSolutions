@@ -1,0 +1,7 @@
+ssh bandit9@bandit.labs.overthewire.org -p 2220
+
+pass: EN632PlfYiZbn3PhVK3XOGSlNInNE00t 
+
+strings data.txt | grep "==" 
+
+G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
